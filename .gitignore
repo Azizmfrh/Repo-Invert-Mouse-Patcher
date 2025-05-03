@@ -1,0 +1,31 @@
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.resharper
+
+# Build output
+/bin/
+/obj/
+
+# NuGet artifacts
+*.nupkg
+*.snupkg
+packages/
+*.nuget.*
+
+# VS Code
+.vscode/
+
+# Logs, temp files
+*.log
+
+# Ignore compiled outputs
+InvertMousePatcher/bin/
+InvertMousePatcher/obj/
+
+# Ignore NuGet artifacts
+*.nupkg
+packages/
+*.nuget.*
