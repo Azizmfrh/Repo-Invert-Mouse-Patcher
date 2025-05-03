@@ -1,4 +1,4 @@
-# R.E.P.O -Invert-Mouse-Patcher
+# R.E.P.O-Invert-Mouse-Patcher
 
 A simple one-click tool to invert the Y-axis in Unity games by patching `SemiFunc.InputMouseY()`.
 
