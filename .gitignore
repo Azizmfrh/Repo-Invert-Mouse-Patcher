@@ -29,3 +29,9 @@ InvertMousePatcher/obj/
 *.nupkg
 packages/
 *.nuget.*
+# Ignore build outputs
+InvertMousePatcher/bin/
+InvertMousePatcher/obj/
+
+# Ignore our standalone publish folder
+InvertMousePatcher/publish/
