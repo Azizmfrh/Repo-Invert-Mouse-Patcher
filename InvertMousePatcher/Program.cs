@@ -76,8 +76,10 @@ namespace InvertMousePatcher
                 return 6;
             }
 
-            Console.WriteLine("✅ Patched InputMouseY() — Y-axis inverted successfully.");
-            return 0;
+             Console.WriteLine("✅ Patched InputMouseY() — Y-axis inverted successfully.");
+             Console.WriteLine("Press any key to exit...");
+             Console.ReadKey(intercept: true);
+             return 0;
         }
     }
 }
