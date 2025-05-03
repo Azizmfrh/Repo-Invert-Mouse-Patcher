@@ -16,6 +16,18 @@ A simple one-click tool to invert the Y-axis in Unity games by patching `SemiFun
 4. You’ll see `✅ Patched InputMouseY() — Y inverted.`
 5. Launch the game; vertical look is now inverted.
 
+##Reset back to original
+
+If you want to restore the original DLL:
+
+1. **Delete** the patched `Assembly-CSharp.dll` in your game’s `*_Data/Managed/` folder.  
+2. **Verify Integrity** (Steam):  
+- Open **Steam**, right-click your game → **Properties**.  
+- Go to **Installed Files** (or **Local Files**) tab → click **Verify integrity of game files…**  
+- Wait for Steam to re-download the original DLL.  
+
+After that, your game will be back to stock.
+
 ## Build from Source
 
 ```bash
