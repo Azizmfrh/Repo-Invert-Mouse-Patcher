@@ -36,3 +36,5 @@ cd Repo-Invert-Mouse-Patcher/InvertMousePatcher
 dotnet add package Mono.Cecil
 dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true
 ```
+
+Credit goes to Reddit user u/no-enjoyment for the initial mod
