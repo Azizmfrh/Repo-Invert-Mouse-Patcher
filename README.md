@@ -14,8 +14,9 @@ A simple one-click tool to invert the Y-axis in Unity games by patching `SemiFun
 2. In Steam, right-click your game → Manage → Browse local files.
 3. Place the downloaded `InvertMousePatcher.exe` into that folder (next to the game’s .exe).
 4. Run it (double-click or .\InvertMousePatcher.exe).
-5. You’ll see ✅ Patched InputMouseY() — Y inverted.
-6. Launch the game; vertical look is now inverted.
+5. You will probably see the `Windows Protected your PC` Window pop up which you need to click `more info` then `Run anyway`
+6. You’ll see `✅ Patched InputMouseY() — Y inverted`.
+7. Launch the game; vertical look is now inverted.
 
 ##Reset back to original
 
